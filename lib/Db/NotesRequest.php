@@ -168,14 +168,17 @@ class NotesRequest extends NotesRequestBuilder {
 		$qb = $this->getNotesSelectSql();
 		$this->limitToObjectId($qb, $objectId);
 		$this->limitToType($qb, $type);
-		$this->limitToActorId($qb, $actor->getId());
+		$this->limitToAttributedTo($qb, $actor->getId());
 
 		$cursor = $qb->execute();
 		$data = $cursor->fetch();
 		$cursor->closeCursor();
 
 		if ($data === false) {
-			throw new NoteNotFoundException('Post not found');
+			throw new NoteNotFoundException(
+				'StreamByObjectId not found - ' . $actor->getId() . ' - ' . $type . ' - '
+				. $objectId
+			);
 		}
 
 		return $this->parseNotesSelectSql($data);
