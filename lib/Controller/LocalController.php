@@ -322,6 +322,7 @@ class LocalController extends Controller {
 
 	/**
 	 * @NoAdminRequired
+	 * @NoCSRFRequired
 	 *
 	 * @param int $since
 	 * @param int $limit
