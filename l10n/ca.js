@@ -22,14 +22,14 @@ OC.L10N.register(
     "Post to followers" : "Missatge als seguidors",
     "Post to recipients" : "Missatge a destinataris",
     "Post unlisted" : "Missatge sense listar",
-    "Direct" : "Directe",
-    "Post to mentioned users only" : "Missatge només cap a usuaris mencionats",
+    "Public" : "Públic",
+    "Post to public timelines" : "Missatges a cronologies públiques",
     "Unlisted" : "No listat",
     "Do not post to public timelines" : "No enviar missatges a cronologies públiques",
     "Followers" : "Seguidors",
     "Post to followers only" : "Missatge només als seguidors",
-    "Public" : "Públic",
-    "Post to public timelines" : "Missatges a cronologies públiques",
+    "Direct" : "Directe",
+    "Post to mentioned users only" : "Missatge només cap a usuaris mencionats",
     "Unfollow" : "Deixar de seguir",
     "Follow" : "Segueix",
     "posts" : "missatges",
@@ -50,6 +50,6 @@ OC.L10N.register(
     "Nextcloud becomes part of the federated social networks!" : "Nextcloud es fa part de les xarxes socials federats!",
     "We automatically created a Social account for you. Your Social ID is the same as your federated cloud ID:" : "Automàticament hem creat un compte Social per a tu. El teu ID Social és el mateix que el teu ID de núvol federat:",
     "Since you are new to Social, start by following the official Nextcloud account so you don't miss any news" : "Ja que ets nou a Social, comença seguint el compte oficial de Nextcloud perquè no et perdis cap notícia",
-    "Follow Nextcloud on mastodon.xyz" : "Seguir Nextcloud a mastodon.xyz"
+    "Follow Nextcloud on mastodon.xyz" : "Seguiu a Nextcloud a mastodon.xyz"
 },
 "nplurals=2; plural=(n != 1);");
